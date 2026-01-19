@@ -2,9 +2,9 @@
 
 ## 📌 Overview
 
-This repository contains a **research-oriented proof-of-concept** implementation of image steganography based on **LSB matching** with **key-driven pseudo-random embedding** and **local image complexity adaptation**.
+This repository contains a research-oriented proof-of-concept implementation of image steganography based on LSB matching with key-driven pseudo-random embedding and local image complexity adaptation.
 
-The project is developed in the context of **Information Security research** and focuses on analyzing **covert data transmission techniques** and their detectability rather than providing a production-ready steganographic tool.
+The project is developed in the context of Information Security research and focuses on analyzing covert data transmission techniques and their detectability
 
 ---
 
@@ -12,7 +12,6 @@ The project is developed in the context of **Information Security research** and
 
 * Demonstrate a practical **covert channel** using lossless image formats
 * Reduce statistical artifacts compared to naive LSB substitution
-* Provide a flexible architecture for **steganalysis research**
 * Serve as a baseline for experimenting with detection and defense methods
 
 ---
@@ -73,8 +72,6 @@ pip install pillow
 python stego.py
 ```
 
-The example embeds and extracts a short test message using the same password and parameters.
-
 ---
 
 ## 📊 Limitations
@@ -83,8 +80,6 @@ The example embeds and extracts a short test message using the same password and
 * Simplified PRNG (not cryptographically secure)
 * No robustness against lossy recompression (e.g. JPEG)
 * Limited experimental dataset
-
-These limitations are **explicit design choices** aligned with the research scope of the project.
 
 ---
 
@@ -115,6 +110,6 @@ The author does not endorse or support malicious use of steganography.
 
 ## 👤 Author
 
-Student project in Information Security
-Poster session / academic defense
+project for the All-Russian School Olympiad in Information Security
+Poster session
 
