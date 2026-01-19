@@ -301,4 +301,6 @@ if __name__ == "__main__":
         except Exception:
             extracted_text = "<decode error>"
 
+
         print(f"[+] Извлечённый текст: {extracted_text!r}")
+    time.sleep(5)
